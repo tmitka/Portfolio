@@ -1,0 +1,91 @@
+body {
+    background-color: #000000;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h1 {
+    padding-left: 12%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 20px;
+}
+
+footer {
+    color: #eeeeee;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#stanely-cup-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 90%;
+}
+
+.about {
+    line-height: 1.6;
+    background-color: #BBE3E6;
+}
+
+.about-portfolio {
+    color: #000000;
+}
+
+
+.contact-info {
+background-color: #666666;
+}
+
+#linkedin-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#github-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.links {
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 576px) {
+.card img {
+        height: 125px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #stanely-cup-img {
+        width: 48%;
+        float: left;
+        margin-bottom: 0px;
+        margin-right: 15px;
+    }
+    .card img {
+        height: 130px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #stanely-cup-img {
+        width: 45%;
+        float: left;
+        margin-right: 15px;
+    }
+    .card img {
+        height:  130px;
+    }
+}
